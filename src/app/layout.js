@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
-        {children}
+        <div className="min-h-screen text-2xl">{children}</div>
         <Footer />
       </body>
     </html>
